@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div id="conteiner">
+		<div id="dateNode">
+			
+	    </div>
+
+	</div>
+<script>
+	
+	let now = new Date();
+	let	LocalDate = now.toLocaleDateString();
+	let	localTime = now.toLocaleTimeString();
+	console.log(LocalDate, localTime);
+	let dateText = localTime + " " + LocalDate;
+	const dateNewNode = document.createElement('div');
+	dateNewNode.innerHTML = dateText;
+	dateNewNode.className = "dateNode";
+	dateNewNode.id="date	Node";
+	let dateNode2 = document.getElementById('dateNode');
+	let container = document.getElementById('container');
+	let parent = dateNode2.parentNode;
+	console.log('dateNode', dateNode, dateNewNode, dateNode.nextSibling);
+	// dateNode2.appendBefore(dateNewNode);
+	// container.insertBefore(dateNewNode, dateNode.nextSibling);
+	// container.appendChild(dateNewNode);
+	parent.insertBefore(dateNewNode, dateNode2);
+</script>
+
+</body>
+</html>

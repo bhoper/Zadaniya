@@ -1,0 +1,18 @@
+@font-face{
+	font-family:StarWars; 
+	src:url('./lesson5/Starjedi.ttf');
+}
+#StarWars{
+	font-family: StarWars;
+	text-align: center;
+	color:white;
+	text-shadow:0px 0px 10px lime,	10px 10px 10px lime,	-10px -10px 10px lime;
+font-size:3rem;
+text-decoration:underline;
+height:100vh; 
+background:linear-gradient(to bottom,red,orange,yellow,green,blue,violet)
+}
+#bgimage{
+	height:100vh;
+	background:url('./lesson5/nature.jpg');
+}
