@@ -1,0 +1,56 @@
+#imgfload{
+	width: 100px;
+	float: left;
+	margin-right: 10px;
+}
+#content{
+	background: gray;
+}
+#blockmodel{
+	width: 20%;
+	background:orange; 
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: auto;
+	overflow: scroll;
+}
+#fixedmodel{
+	background: gold;
+	height: 100vh;
+
+}
+#logo{
+	width: 50px;
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+#absolutmodel{
+	background: pink;
+	height: 100vh;
+	width: 100%;
+}
+#relectivemodel{
+	height: 100vh;
+	background: green;
+	position: relative;
+}
+	#column{
+    background: violet;
+    position: absolute;
+    top: 0;
+    left: 0
+	} 
+	#column2{
+    background: yellow;
+    position: absolute;
+    top: 0;
+    right: 0;
+	}
+#absolutcontent{
+	position: absolute;
+	top: 500px;
+	left: 300px;
+	background: red;
+}

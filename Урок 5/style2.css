@@ -1,0 +1,17 @@
+#block-model{
+	background: #ddd;
+	padding:10px;
+	margin:10px;
+    border:2px solid maroon;
+    border-radius:5px;
+    box-shadow:0px 0px 10px black;
+}
+#container{
+	background:lightgreen;
+}
+body{
+	background:gold
+}
+block-model{
+	
+}

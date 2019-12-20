@@ -1,0 +1,27 @@
+* {
+	color: green;
+}
+#container p {
+	color:black !important;
+}
+#imp-test{
+	color:violet;
+	font-weight: bold;
+	font-family: colibri,verdana,"Times New Roman";
+	font-style: italic;
+	font-size: 2em;
+	font-size: small;
+	font-size: large;
+}
+.link-test{
+	color:blue;
+    text-decoration: none;
+}
+.link-test:hover{
+	color:orange;
+    text-decoration: underline; 
+}
+.link-test:visited{
+	color:violet;
+    text-decoration: underline;
+
